@@ -30,8 +30,6 @@ app.use(( req, res, next) => {
   next();
 });
 
-//0Ltderrjwqezrvyo
-
 app.post('/posts', (req, res, next) => {
   const post = new Post({
     title: req.body.title,
